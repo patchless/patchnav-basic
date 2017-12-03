@@ -10,6 +10,7 @@
   "dependencies": {
     "depject": "^4.1.1",
     "hyper-nav": "^2.0.1",
+    "hyperloadmore": "^1.1.0",
     "hyperscript": "^2.0.2"
   },
   "devDependencies": {},
