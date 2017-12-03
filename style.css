@@ -1,0 +1,22 @@
+
+.patchnav {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hyperloadmore__scroller {
+  overflow: scroll;
+}
+
+* {
+  word-break; break-word;
+}
+
+body {
+  margin: 0px;
+}
