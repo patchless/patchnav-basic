@@ -1,11 +1,11 @@
 {
-  "name": "repatch",
+  "name": "patchnav",
   "description": "",
   "version": "1.0.0",
-  "homepage": "https://github.com/dominictarr/repatch",
+  "homepage": "https://github.com/dominictarr/patchnav",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/repatch.git"
+    "url": "git://github.com/dominictarr/patchnav.git"
   },
   "dependencies": {
     "depject": "^4.1.1",
