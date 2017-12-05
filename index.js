@@ -14,7 +14,7 @@ function ObvMap (obv, map) {
 }
 
 exports.gives = {
-  layout: { screen: true, goto: true }
+  nav: { screen: true, goto: true }
 }
 exports.needs = {
   app: {
@@ -27,7 +27,7 @@ exports.create = function (api) {
   var nav
 
   return {
-    layout: {
+    nav: {
       screen: function () {
         var menu = api.app.menu().filter(Boolean)
         nav = HyperNav(function (href) {
@@ -78,7 +78,4 @@ exports.create = function (api) {
     }
   }
 }
-
-
-
 

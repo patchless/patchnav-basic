@@ -1,11 +1,11 @@
 {
-  "name": "patchnav",
+  "name": "patchnav-basic",
   "description": "",
   "version": "1.0.1",
-  "homepage": "https://github.com/dominictarr/patchnav",
+  "homepage": "https://github.com/dominictarr/patchnav-basic",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/patchnav.git"
+    "url": "git://github.com/dominictarr/patchnav-basic.git"
   },
   "dependencies": {
     "depject": "^4.1.1",
