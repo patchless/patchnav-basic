@@ -2,6 +2,8 @@ var h = require('hyperscript')
 var HyperNav = require('hyper-nav')
 var HyperLoadMore = require('hyperloadmore')
 var URL = require('url')
+var fs = require('fs')
+var path = require('path')
 
 function ObvMap (obv, map) {
   return function (fn) {
@@ -67,7 +69,7 @@ exports.create = function (api) {
       nav.className = 'patchnav'
 
         nav.appendChild(
-          h('style', {innerText: require('fs').readFileSync(require('path').join(__dirname, 'style.css'))})
+          h('style', {innerText: fs.readFileSync(path.join(__dirname, 'style.css'))})
         )
 
         return nav
