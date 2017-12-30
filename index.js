@@ -58,11 +58,14 @@ exports.create = function (api) {
         )
 
         window.onclick = function (ev) {
+          var href, target = ev.target
+          while (target && !(href = target.getAttribute('href')))
+            target = target.parentNode
+
           ev.preventDefault()
           //TODO: make path more generic
-          var link = ev.target.getAttribute('href') //get the exact href provided
-          if(link) {
-            nav.push(link)
+          if(href) {
+            nav.push(href)
           }
         }
 
@@ -80,4 +83,5 @@ exports.create = function (api) {
     }
   }
 }
+
 
